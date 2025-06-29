@@ -27,7 +27,7 @@ Ez a projekt egy **Memory Game**, amely React, Redux, TypeScript és Vite felhas
 - Páros kártyák keresése időre
 - Hibák számlálása
 - Játék újraindítása
-- Beállítások módosítása (kártyák száma, idő)
+- Beállítások módosítása (kártyák száma, idő, hibalehetőségek száma, nyelv)
 - Reszponzív, modern UI
 
 ## Parancsok
