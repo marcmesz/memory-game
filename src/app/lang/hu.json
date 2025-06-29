@@ -1,0 +1,17 @@
+{
+  "count-matches": "{count} találat",
+  "count-mistakes": "{count} hiba",
+  "game-over.title": "Játék vége! 😔",
+  "game-over.subtitle": "Hoppá! {count} rossz tippet adtál.",
+  "game-over.text": "Legközelebb tutira sikerül!",
+  "you-won": "Nyertél! 🎉",
+  "you-won.text": "Gratulálunk! Szuper voltál!",
+  "header.icon.title.restart-game": "Játék újraindítása",
+  "modal.btn.save-settings": "BEÁLLÍTÁSOK MENTÉSE",
+  "modal.btn.play-again": "Új játék",
+  "modal.game-settings": "Játékbeállítások",
+  "modal.number-of-pair-of-cards": "Kártyapárok száma",
+  "modal.countdown-time-sec": "Időzítő (mp.)",
+  "modal.restricted-bad-guesses": "Hibalehetőségek száma",
+  "modal.lang": "Nyelv"
+}

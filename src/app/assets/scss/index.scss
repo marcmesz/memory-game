@@ -1,0 +1,23 @@
+@use "./variables" as *;
+@use "./classes";
+@use "./font-family";
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  font-family: $font-family !important;
+  font-size: $font-size-base;
+}
+
+svg {
+  cursor: pointer;
+}
+
+input[type="number"] {
+  padding: 0.5rem 0 0.3rem 0.5rem;
+  border-radius: 10px;
+  border: 1px solid $gray-200;
+  width: 50px;
+}

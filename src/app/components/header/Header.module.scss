@@ -1,0 +1,8 @@
+@use "../../assets/scss/variables.scss" as *;
+
+@media (max-width: #{$md-breakpoint}px) {
+  .headerMenu {
+    position: absolute;
+    margin-top: 0.5rem;
+  }
+}

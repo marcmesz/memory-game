@@ -1,0 +1,95 @@
+@use "sass:color";
+@use "./variables.scss" as *;
+
+.gilroy-regular {
+  font-family: "Gilroy-Regular", sans-serif;
+}
+
+.gilroy-bold {
+  font-family: "Gilroy-Bold", sans-serif;
+}
+
+.gilroy-heavy {
+  font-family: "Gilroy-Heavy", sans-serif;
+}
+
+.h1 {
+  font-size: 3.25rem;
+}
+
+.container {
+  max-width: 1104px;
+}
+
+.bg-light {
+  padding: 40px 25px;
+  border-radius: 50px;
+  background-color: $gray-100 !important;
+}
+
+.primary {
+  color: $primary;
+}
+
+.dropdown-toggle {
+  max-width: 50px;
+  margin-bottom: 0.2em;
+  border: 1px solid $gray-200;
+  padding-bottom: 0.25em;
+}
+
+.dropdown-item {
+  &:focus {
+    color: $white;
+    background-color: $primary !important;
+  }
+
+  &.active {
+    background-color: $primary;
+    font-family: "Gilroy-Bold";
+  }
+}
+
+.btn-primary {
+  background-color: $primary;
+  border-color: $primary;
+  color: $white;
+  font-family: "Gilroy-Bold", sans-serif;
+  font-size: $font-size-base;
+  padding: 10px 20px 8px 20px;
+  border-radius: 30px;
+
+  &:hover,
+  &:focus {
+    background-color: color.adjust($primary, $lightness: -10%) !important;
+    border-color: color.adjust($primary, $lightness: -10%) !important;
+  }
+  &:active {
+    background-color: color.adjust($primary, $lightness: -20%) !important;
+    border-color: color.adjust($primary, $lightness: -20%) !important;
+  }
+}
+
+.modal-dialog {
+  max-width: 300px;
+  margin-top: 3rem;
+}
+
+.modal-header {
+  color: $black;
+  background-color: $gray-100;
+  border-top-left-radius: 40px;
+  border-top-right-radius: 40px;
+  padding: 20px;
+  padding-bottom: 15px;
+}
+
+.modal-content {
+  border-radius: 40px;
+}
+
+@media (max-width: #{$md-breakpoint}px) {
+  .modal-dialog {
+    margin: 3rem auto;
+  }
+}

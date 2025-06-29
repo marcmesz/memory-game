@@ -1,0 +1,17 @@
+{
+  "count-matches": "{count} matches",
+  "count-mistakes": "{count} mistakes",
+  "game-over.title": "Game Over! 😔",
+  "game-over.subtitle": "Oops! You had {count} bad guesses.",
+  "game-over.text": "Next time, you'll nail it!",
+  "you-won": "You won! 🎉",
+  "you-won.text": "Congrats! You were awesome!",
+  "header.icon.title.restart-game": "Restart game",
+  "modal.btn.save-settings": "SAVE SETTINGS",
+  "modal.btn.play-again": "Play again",
+  "modal.game-settings": "Game settings",
+  "modal.number-of-pair-of-cards": "Number of pair of cards",
+  "modal.countdown-time-sec": "Countdown time (sec.)",
+  "modal.restricted-bad-guesses": "Restricted bad guesses",
+  "modal.lang": "Language"
+}
