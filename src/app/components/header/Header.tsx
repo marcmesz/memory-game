@@ -14,12 +14,29 @@ const Header = () => {
 
   return (
     <>
-      <Row className="my-4 header">
-        <Col
-          sm={12}
-          md={4}
-          className="text-start text-sm-center text-md-start mb-4 mb-md-0"
-        ></Col>
+      <Row className="my-4">
+        <Col sm={12} md={4}>
+          <Row className="h-100">
+            <Col
+              md={6}
+              className="d-flex align-items-center justify-content-md-center"
+            >
+              <FormattedMessage
+                id="count-matches"
+                values={{ count: props.matchedCount }}
+              />
+            </Col>
+            <Col
+              md={6}
+              className="d-flex align-items-center justify-content-md-center"
+            >
+              <FormattedMessage
+                id="count-mistakes"
+                values={{ count: props.mistakesCount }}
+              />
+            </Col>
+          </Row>
+        </Col>
         <Col sm={12} md={4} className="text-center">
           <section className="d-flex justify-content-center align-items-center h-100">
             <article
@@ -28,20 +45,6 @@ const Header = () => {
             >
               {props.timer}
             </article>
-            <div className="d-flex flex-column justify-content-between border-start">
-              <article className="pt-0 pb-2 px-3 border-bottom">
-                <FormattedMessage
-                  id="count-matches"
-                  values={{ count: props.matchedCount }}
-                />
-              </article>
-              <article className="pb-0 pt-2 px-3">
-                <FormattedMessage
-                  id="count-mistakes"
-                  values={{ count: props.mistakesCount }}
-                />
-              </article>
-            </div>
           </section>
         </Col>
         <Col sm={12} md={4} className={styles.headerMenu}>
