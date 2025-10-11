@@ -1,6 +1,5 @@
 import { Col, Row } from "react-bootstrap"
 import { FormattedMessage, useIntl } from "react-intl"
-import LogoIcon from "../../assets/images/svg/ico-logo.svg?react"
 import RestartIcon from "../../assets/images/svg/ico-restart.svg?react"
 import SettingsIcon from "../../assets/images/svg/ico-settings.svg?react"
 import MessageModal from "../modal/MessageModal"
@@ -20,9 +19,7 @@ const Header = () => {
           sm={12}
           md={4}
           className="text-start text-sm-center text-md-start mb-4 mb-md-0"
-        >
-          <LogoIcon style={{ cursor: "default" }} />
-        </Col>
+        ></Col>
         <Col sm={12} md={4} className="text-center">
           <section className="d-flex justify-content-center align-items-center h-100">
             <article

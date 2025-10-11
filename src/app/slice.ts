@@ -20,7 +20,7 @@ export const initialSettings: InitialSettings = {
 const gameSlice = createSlice({
   name: "game",
   initialState: {
-    locale: "EN" as SupportedLocale,
+    locale: "HU" as SupportedLocale,
     settings: initialSettings,
     cards: [] as GameCardType[],
     flipped: [] as number[],
